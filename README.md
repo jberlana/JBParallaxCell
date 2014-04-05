@@ -5,6 +5,9 @@ The goal of this project is to create a parallax effect on a `UIImageView` on a 
 
 This code has been created originally to provide a parallax effect on [meets](http://www.meetsapp.com/ "meets")'s discover tab.
 
+![image](<https://github.com/jberlana/JBParallaxCell/raw/master/image.png>)
+[Download the app](https://itunes.apple.com/us/app/meets-tienes-un-plan/id595441007 "meets") and test it for free! Feedback is welcome!
+
 ### Documentation
 
 On your `UITableViewCell`
@@ -19,9 +22,7 @@ On your `UITableViewCell`
     
     float distanceFromCenter = CGRectGetHeight(view.frame)/2 - CGRectGetMinY(rectInSuperview);
     float difference = CGRectGetHeight(self.parallaxImage.frame) - CGRectGetHeight(self.frame);
-    
-    float normalize = (distanceFromCenter / (CGRectGetHeight(view.frame)/2));
-    float move = normalize * (difference/2);
+    float move = (distanceFromCenter / CGRectGetHeight(view.frame)) * difference;
     
     CGRect imageRect = self.parallaxImage.frame;
     imageRect.origin.y = -(difference/2)+move;
