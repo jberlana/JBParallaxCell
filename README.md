@@ -6,6 +6,7 @@ The goal of this project is to create a parallax effect on a `UIImageView` on a 
 This code has been created originally to provide a parallax effect on [meets](http://www.meetsapp.com/ "meets")'s discover tab.
 
 ![image](<https://github.com/jberlana/JBParallaxCell/raw/master/image.png>)
+
 [Download the app](https://itunes.apple.com/us/app/meets-tienes-un-plan/id595441007 "meets") and test it for free! Feedback is welcome!
 
 ### Documentation
