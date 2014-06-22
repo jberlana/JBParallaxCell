@@ -1,7 +1,7 @@
 iOS Parallax effect on images of UITableViewCell
 ================================================
 
-The goal of this project is to create a parallax effect on a `UIImageView` on a `UITAbleViewCell` when the table scrolls.
+The goal of this project is to create a parallax effect on a `UIImageView` on a `UITableViewCell` when the table scrolls.
 
 This code has been created originally to provide a parallax effect on [meets](http://www.meetsapp.com/ "meets")'s discover tab.
 
