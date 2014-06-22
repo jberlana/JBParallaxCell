@@ -225,6 +225,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Javier Berlana";
 				TargetAttributes = {
+					420D9BBC1896DD8A00BCDD33 = {
+						DevelopmentTeam = SA88BR3FHS;
+					};
 					420D9BDD1896DD8A00BCDD33 = {
 						TestTargetID = 420D9BBC1896DD8A00BCDD33;
 					};
@@ -388,7 +391,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: SWEETBITS SL. (SA88BR3FHS)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -409,10 +412,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JBParallaxTable/JBParallaxTable-Prefix.pch";
 				INFOPLIST_FILE = "JBParallaxTable/JBParallaxTable-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "07ACDA49-BECC-4771-9292-9E8EEF41CCFE";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -422,10 +428,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: SWEETBITS SL. (SA88BR3FHS)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JBParallaxTable/JBParallaxTable-Prefix.pch";
 				INFOPLIST_FILE = "JBParallaxTable/JBParallaxTable-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "07ACDA49-BECC-4771-9292-9E8EEF41CCFE";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
